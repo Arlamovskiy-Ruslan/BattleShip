@@ -1,5 +1,5 @@
 
-import models.PlayersO;
+import models.Players;
 
 import java.util.Scanner;
 
@@ -7,9 +7,10 @@ public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        PlayersO players = new PlayersO();
+        Players players = new Players();
 
-        players.outputPlayersName(scanner);
+        players.inputPlayersName(scanner);
+        players.outputPlayersName();
 
     }
 }
