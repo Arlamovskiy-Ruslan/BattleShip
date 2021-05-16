@@ -1,11 +1,15 @@
 package models;
 
+import io.IPrint;
+
 import java.util.Scanner;
 
 public class Players {
     String playerName1;
     String playerName2;
-    String hack = "\n\n";
+    String gap = "\n\n";
+
+    private IPrint printer;
 
     public void inputPlayersName(Scanner scanner){
         System.out.println("Player#1, please enter your name:");
@@ -16,7 +20,11 @@ public class Players {
 
     public void outputPlayersName(){
 
-        System.out.println(hack + "Player#1 name :" + playerName1);
-        System.out.println(hack + "Player#2 name :" + playerName2);
+        System.out.println(gap + "Player#1 name :" + playerName1);
+        System.out.println(gap + "Player#2 name :" + playerName2 + gap);
+    }
+
+    public void placeShips(){
+        
     }
 }
