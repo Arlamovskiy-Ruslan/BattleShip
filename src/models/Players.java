@@ -23,8 +23,5 @@ public class Players {
         System.out.println(gap + "Player#1 name :" + playerName1);
         System.out.println(gap + "Player#2 name :" + playerName2 + gap);
     }
-
-    public void placeShips(){
-
-    }
+    
 }
