@@ -25,6 +25,6 @@ public class Players {
     }
 
     public void placeShips(){
-        
+
     }
 }
