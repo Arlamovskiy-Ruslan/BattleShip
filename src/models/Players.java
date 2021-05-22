@@ -1,15 +1,11 @@
 package models;
 
-import io.IPrint;
-
 import java.util.Scanner;
 
 public class Players {
     String playerName1;
     String playerName2;
     String gap = "\n\n";
-
-    private IPrint printer;
 
     public void inputPlayersName(Scanner scanner) {
         System.out.println("Player#1, please enter your name:");
